@@ -1,11 +1,11 @@
-# Tasks App
+## Tasks App
 
 A full-stack app for tasks managing:
-- Each task has id, name, description, and importance status.
-- We can create, retrieve, update and delete tasks.
-- We can also find tasks by name.
+- each task has id, name, description, and importance status
+- create, retrieve, update and delete tasks
+- find tasks by name
 
-## Technology stack
+### Technology stack
 - Angular
 - Java
 - Spring Boot
@@ -14,15 +14,17 @@ A full-stack app for tasks managing:
 - REST API
 - Maven
 
-
-## Run back-end Spring Boot application
+### Run back-end Spring Boot application
 ```
 mvn spring-boot:run
 ```
-The Spring Boot Server will export API at port `8081`.
 
-## Run front-end Angular Client
+### Run front-end Angular Client
 ```
 npm install
 ng serve --port 8081
 ```
+
+### Screenshot
+
+![Tasks-app-screenshot.png](src%2Fmain%2Fresources%2FTasks-app-screenshot.png)
