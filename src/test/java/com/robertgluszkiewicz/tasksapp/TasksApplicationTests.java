@@ -1,10 +1,10 @@
-package com.robertgluszkiewicz.taskapp2;
+package com.robertgluszkiewicz.tasksapp;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class TaskApp2ApplicationTests {
+class TasksApplicationTests {
 
     @Test
     void contextLoads() {

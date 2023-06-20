@@ -1,13 +1,13 @@
-package com.robertgluszkiewicz.taskapp2;
+package com.robertgluszkiewicz.tasksapp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class TaskApp2Application {
+public class TasksApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(TaskApp2Application.class, args);
+        SpringApplication.run(TasksApplication.class, args);
     }
 
 }
